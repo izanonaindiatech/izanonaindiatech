@@ -17,19 +17,24 @@ Técnico junior de sistemas y ciberseguridad, con formación en **Administració
 - **Automatización:** Python y Bash
 - **Áreas de interés:** Blue Team, SOC N1, análisis de vulnerabilidades y respuesta inicial ante incidentes
 
-## Proyectos
+## Proyecto destacado
 
-Actualmente estoy preparando proyectos prácticos y documentados sobre:
+### [Evaluación de seguridad - TryHackMe Team](./projects/tryhackme-team/)
+
+Caso práctico realizado durante mi especialización en Ciberseguridad en Nebrija Formación Profesional. Incluye reconocimiento con Nmap, enumeración web, análisis de información expuesta, acceso inicial, enumeración Linux, escalada de privilegios y recomendaciones de seguridad.
+
+`Kali Linux` `Nmap` `Gobuster` `Wfuzz` `Linux` `SSH` `Privilege Escalation` `Security Reporting`
+
+## Próximos proyectos
 
 1. Laboratorio SOC y monitorización defensiva con Wazuh
 2. Análisis y priorización de vulnerabilidades
 3. Bastionado de sistemas Windows y Linux
-
-Los repositorios se irán publicando en este perfil con documentación, capturas, procedimientos y conclusiones.
 
 ## Contacto
 
 - [LinkedIn](https://www.linkedin.com/in/izan-onaindia-osorio/)
 
 ---
+
 Este perfil refleja mi aprendizaje y mi evolución profesional en sistemas y ciberseguridad.
