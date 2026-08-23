@@ -1,5 +1,3 @@
-# Hola, soy Izan 👋
-
 Técnico junior de sistemas y ciberseguridad, con formación en **Administración de Sistemas Informáticos en Red (ASIR)** y especialización en **Ciberseguridad en Entornos de las Tecnologías de la Información**.
 
 ## Sobre mí
