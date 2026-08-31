@@ -33,3 +33,21 @@ Scripts:
 
 - [`scripts/New-LabUsersAndGroups.ps1`](scripts/New-LabUsersAndGroups.ps1)
 - [`scripts/New-AGDLPFileShares.ps1`](scripts/New-AGDLPFileShares.ps1)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Hito 05 — GPO, hardening y auditoría
+
+Se implementaron políticas diferenciadas para estaciones de trabajo y controladores de dominio:
+
+- Política de contraseñas robusta y bloqueo tras cinco intentos fallidos.
+- Baseline de seguridad para CL01 con hardening de red, SMB, NTLM y UAC.
+- Firewall habilitado en los tres perfiles con registro de paquetes descartados.
+- Auditoría de inicio de sesión, cambios de directiva y ejecución de procesos.
+- Registro de línea de comandos en eventos 4688.
+- Auditoría específica de Active Directory y Kerberos en DC01.
+- Validación mediante `gpresult`, `auditpol` y eventos reales 4688 y 4738.
+- Diagnóstico y remediación de una asignación incorrecta de subcategorías entre GPO.
+
+Documentación: [`docs/05-gpo-hardening-auditing.md`](docs/05-gpo-hardening-auditing.md)
+
