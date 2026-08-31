@@ -36,7 +36,7 @@ Scripts:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Hito 05 — GPO, hardening y auditoría
+## Hito — GPO, hardening y auditoría
 
 Se implementaron políticas diferenciadas para estaciones de trabajo y controladores de dominio:
 
