@@ -23,7 +23,7 @@ Laboratorio empresarial de Active Directory con Windows Server 2019 y Windows 10
 
 `Active Directory` `Windows Server` `PowerShell` `GPO` `AGDLP` `Auditoría` `Backup & Recovery`
 
-### [Evaluación de seguridad - TryHackMe Team](./projects/tryhackme-team/)
+### [Evaluación de seguridad — TryHackMe Team](https://github.com/izanonaindiatech/tryhackme-team-security-assessment)
 
 Caso práctico realizado durante mi especialización en Ciberseguridad en Nebrija Formación Profesional. Incluye reconocimiento con Nmap, enumeración web, análisis de información expuesta, acceso inicial, enumeración Linux, escalada de privilegios y recomendaciones de seguridad.
 
