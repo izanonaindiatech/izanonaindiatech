@@ -15,7 +15,13 @@ Técnico junior de sistemas y ciberseguridad, con formación en **Administració
 - **Automatización:** Python y Bash
 - **Áreas de interés:** Blue Team, SOC N1, análisis de vulnerabilidades y respuesta inicial ante incidentes
 
-## Proyecto destacado
+## Proyectos destacados
+
+### [Secure Active Directory Lab](https://github.com/izanonaindiatech/secure-active-directory-lab)
+
+Laboratorio empresarial de Active Directory con Windows Server 2019 y Windows 10. Incluye diseño de dominio y OU, automatización con PowerShell, control de acceso AGDLP, permisos SMB/NTFS, GPO, firewall, auditoría avanzada, backup del estado del sistema y recuperación mediante AD Recycle Bin.
+
+`Active Directory` `Windows Server` `PowerShell` `GPO` `AGDLP` `Auditoría` `Backup & Recovery`
 
 ### [Evaluación de seguridad - TryHackMe Team](./projects/tryhackme-team/)
 
