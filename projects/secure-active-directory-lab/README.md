@@ -51,3 +51,22 @@ Se implementaron políticas diferenciadas para estaciones de trabajo y controlad
 
 Documentación: [`docs/05-gpo-hardening-auditing.md`](docs/05-gpo-hardening-auditing.md)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Hito — Backup y recuperación de Active Directory
+
+Se añadió un disco dedicado de 30 GB y se configuró Windows Server Backup para proteger el estado del sistema de `DC01`. Durante la implantación se diagnosticó y corrigió un fallo VSS (`0x807800C5`) relacionado con la partición Reservado para el sistema.
+
+También se habilitó AD Recycle Bin y se validó una recuperación granular completa: un usuario eliminado recuperó su GUID, SID, OU, atributos y pertenencia a grupos originales.
+
+### Evidencias principales
+
+- Disco de backup `E:` (`BACKUP-DC01`) sano y operativo.
+- Dos versiones catalogadas y recuperables mediante `wbadmin`.
+- AD Recycle Bin habilitada en el bosque `izanlab.local`.
+- Restauración de `restore.test` conservando identidad y pertenencia a `GG_Sistemas`.
+- Snapshot final: `06-Backup-y-recuperacion-AD-validados`.
+
+Documentación completa: [`docs/06-backup-and-ad-recovery.md`](docs/06-backup-and-ad-recovery.md)
+
+
